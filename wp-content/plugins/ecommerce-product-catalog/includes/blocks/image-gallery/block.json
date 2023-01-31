@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "ic-epc/image-gallery",
+  "title": "Product Image",
+  "icon": "format-gallery",
+  "category": "ic-epc-block-cat",
+  "attributes": {
+    "productFromContext": {
+      "type": "boolean",
+      "default": true
+    },
+    "sample": {
+      "type": "string",
+      "default": ""
+    },
+    "productSearch": {
+      "type": "string",
+      "default": ""
+    },
+    "selectedProduct": {
+      "type": "integer",
+      "default": 0
+    },
+    "alignment": {
+      "type": "string",
+      "default": "none"
+    },
+    "border": {
+      "type": "string",
+      "default": "none"
+    },
+    "spacing": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./block.js",
+  "style": "file:./style.css"
+}

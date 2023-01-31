@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "ic-epc/product-size-filter",
+  "title": "Catalog Size Filter",
+  "icon": "filter",
+  "category": "ic-epc-block-cat",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "shortcode_support": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "file:./block.js"
+}
